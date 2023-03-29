@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  background-color: thistle;
+}
+/* ?========== header ================= */
+.header {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Alkatra", cursive;
+  color: #fff;
+}
+
+img {
+  margin-top: 9px;
+  width: 35px;
+  height: 31px;
+}
+
+/* ? ========= input-parts ===========*/
+.inputs-part {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+#name {
+  margin-right: 10px;
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #fff;
+  font-size: 15px;
+  border: 4px solid rgb(244, 133, 170);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#phone {
+  margin-right: 10px;
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  border: 4px solid pink;
+  font-size: 15px;
+  background-color: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#img {
+  margin-right: 10px;
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  border: 4px solid paleturquoise;
+  background-color: #fff;
+  font-size: 15px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#btn4 {
+  height: 45px;
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 10px;
+  font-size: 10px;
+  background-color: #fff;
+  color: gray;
+  border: 3px solid rgb(240, 112, 138);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul {
+  margin-top: 65px;
+  width: 70%;
+  height: 300px;
+  background-color: #fff;
+  margin-left: 15%;
+  border-radius: 10px;
+  border: 4px solid rgb(224, 156, 234);
+}
+li {
+  width: 700px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  /* font-family: "Alkatra", cursive; */
+  font-size: 20px;
+  color: gray;
+}
+
+/* ? modal part */
+.modal {
+  display: none;
+  position: fixed;
+  top: 20%;
+  left: 35%;
+  width: 450px;
+  height: 180px;
+}
+.modal_nav {
+  display: flex;
+  justify-content: space-between;
+}
+.modal_nav h1 {
+  margin-left: 20px;
+}
+/* !=============================== */
+.ppp {
+  margin-top: 30px;
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  border: 3px solid rgb(141, 165, 232);
+  background-color: #fff;
+}
+
+.kkk {
+  margin-top: 30px;
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  border: 3px solid rgb(165, 81, 186);
+  background-color: #fff;
+}
+
+.hhh {
+  margin-top: 30px;
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  border: 3px solid rgb(242, 95, 139);
+  background-color: #fff;
+}
+/* !================================ */
+
+#btnsave {
+  height: 43px;
+  width: 50px;
+  border-radius: 10px;
+  font-size: 10px;
+  background-color: #fff;
+  color: gray;
+  border: 3px solid rgb(241, 133, 154);
+}
+
+.modal_nav button {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-right: 10px;
+  color: grey;
+  font-weight: bold;
+  border: none;
+  background-color: rgba(245, 239, 232, 0.799);
+}
+.modal_body p {
+  margin-left: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+hr {
+  margin-top: -5px;
+  opacity: 0.1;
+}
+
+ul #btnDel {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border: 3px solid rgb(110, 74, 240);
+  background-color: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul #btnEd {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border: 3px solid rgb(165, 68, 197);
+  background-color: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul #imgUl {
+  margin-top: -1px;
+  width: 50px;
+  height: 50px;
+}
+
+ul #tel {
+  background-color: #fff;
+  color: gray;
+  font-size: 20px;
+}
+
+/* ul #idName{
+  color: gray;
+  font-size: 20px;
+} */
+li {
+  font-size: 25;
+}
